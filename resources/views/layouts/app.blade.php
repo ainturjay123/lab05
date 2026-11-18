@@ -30,7 +30,7 @@
 <body>
     <nav class="navbar navbar-dark shadow-sm">
         <div class="container-fluid px-4">
-            <a class="navbar-brand fw-bold portal-brand" href="{{ route('dashboard') }}">Student Portal</a>
+            <a class="navbar-brand fw-bold portal-brand" href="{{ route('student-portal') }}">Student Portal</a>
             <div class="d-flex align-items-center gap-3">
                 <span class="text-white">Welcome, <strong>{{ auth()->user()->name ?? 'Admin' }}</strong></span>
                 <form method="POST" action="{{ route('logout') }}" class="m-0">

@@ -250,7 +250,7 @@
 <body>
     <!-- Top Navigation -->
     <header class="topbar">
-        <a href="{{ route('dashboard') }}" class="brand">Student Portal</a>
+        <a href="{{ route('student-portal') }}" class="brand">Student Portal</a>
 
         <div>
             <span class="me-2">Welcome, <strong>{{ auth()->user()->name ?? 'Admin' }}</strong></span>

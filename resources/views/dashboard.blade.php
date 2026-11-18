@@ -9,7 +9,7 @@
             <h5 class="mb-4">Navigation</h5>
 
             <nav class="nav flex-column">
-                <a href="{{ route('dashboard') }}"
+                <a href="{{ route('student-portal') }}"
                    class="nav-link active">🏠 Dashboard</a>
 
                 <a href="#profileSettings"

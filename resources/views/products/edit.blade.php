@@ -68,7 +68,7 @@
 
                     <!-- Buttons -->
                     <div class="d-flex justify-content-between">
-                        <a href="{{ route('dashboard') }}" class="btn btn-secondary px-4">Cancel</a>
+                        <a href="{{ route('student-portal') }}" class="btn btn-secondary px-4">Cancel</a>
                         <button type="submit" class="btn btn-success px-4" style="background-color: #198754;">Update Record</button>
                     </div>
                 </form>
